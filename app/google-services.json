@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "808680056231",
+    "firebase_url": "https://userauthenticationsystem.firebaseio.com",
+    "project_id": "userauthenticationsystem",
+    "storage_bucket": "userauthenticationsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808680056231:android:b6068c034a75fdd0",
+        "android_client_info": {
+          "package_name": "ehab.com.userauthenticationsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808680056231-uoplrgdde0sbevhgk5mcmo7d1hrq27u9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ehab.com.userauthenticationsystem",
+            "certificate_hash": "599AA07B81BA80E648AA310C8ABFBCB4EB3C0494"
+          }
+        },
+        {
+          "client_id": "808680056231-1f24f8f2bmoe5ckps4ebcuf3vef86qbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0gCxQPIOrWe-zonMiZ6XmU26D-1w-Ihg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808680056231-1f24f8f2bmoe5ckps4ebcuf3vef86qbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

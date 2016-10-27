@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_edt"
+            android:hint="Full Name"
+            android:padding="10dp"
+
+            android:textColorHint="#bbbbbb"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fullname"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/bg_edt"
+            android:hint="E-Mail"
+            android:padding="10dp"
+            android:textColorHint="#bbbbbb"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Email"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/bg_edt"
+            android:hint="Mobile Number"
+            android:padding="10dp"
+            android:textColorHint="#bbbbbb"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mobile"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/bg_edt"
+
+            android:hint="Location"
+            android:padding="10dp"
+            android:textColorHint="#bbbbbb"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/Craft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Location"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/bg_edt"
+            android:hint="Craft"
+            android:padding="10dp"
+            android:textColorHint="#bbbbbb"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/SSN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Craft"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/bg_edt"
+            android:hint="SSN"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColorHint="#bbbbbb"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/Password1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SSN"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/bg_edt"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:padding="10dp"
+            android:textColorHint="#bbbbbb"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnSingup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llayout"
+            android:background="@drawable/bg_btn"
+            android:fontFamily="sans-serif"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="60dp"/>
+    </LinearLayout>
+
+</ScrollView>
+
